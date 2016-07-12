@@ -1,7 +1,5 @@
 package myst.jass.items;
 
-import myst.jass.libs.Reference;
-
 /**
  * Created by UnRealDinnerbone on 7/12/2016.
  */
@@ -13,7 +11,7 @@ public class ExampleItem extends JASSItemBase
     public ExampleItem()
     {
         super();
-        this.setUnlocalizedName(Reference.RE_PREFIX + name);
+        setUnlocalizedName(name);
 
     }
 

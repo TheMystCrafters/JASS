@@ -13,7 +13,7 @@ public class ExampleBlock extends JASSBlockBase {
     public ExampleBlock()
     {
         super();
-        this.setUnlocalizedName(Reference.RE_PREFIX + name);
+        this.setUnlocalizedName(name);
 
     }
 

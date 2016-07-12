@@ -1,7 +1,5 @@
 package myst.jass.libs;
 
-import myst.jass.blocks.ExampleBlock;
-import myst.jass.blocks.JASSBlockBase;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -45,10 +43,10 @@ public class RegisteryHelper
 
     public static void RenderItem(Item item, String name)
     {
-        ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(Reference.RE_PREFIX + name, "inventory"));
+        ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(Reference.MOD_ID + ":" + name, "inventory"));
     }
     public static void RenderBlock(Block block, String name)
     {
-        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(Reference.RE_PREFIX + name));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(Reference.MOD_ID + ":" + name));
     }
 }

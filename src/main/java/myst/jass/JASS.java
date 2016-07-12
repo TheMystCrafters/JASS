@@ -22,20 +22,14 @@ public class JASS {
     @Mod.Instance(Reference.MOD_ID)
     public static JASS instance;
     public static CommonProxy proxy;
-    public static CreativeTabs tabsBRP = new JASSCreativeTab(CreativeTabs.getNextID());
+    public static CreativeTabs tabsJASS = new JASSCreativeTab(CreativeTabs.getNextID());
 
 
     //Forge Stuff
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-            JASSBlocks.RegisterBlock();
-            JASSItems.RegisterItem();
-            if(event.getSide().isClient())
-            {
-                JASSBlocks.RenderBlocks();
-                JASSItems.RenderItem();
-            }
+
     }
 
     @Mod.EventHandler
@@ -43,6 +37,11 @@ public class JASS {
     {
         JASSBlocks.RegisterBlock();
         JASSItems.RegisterItem();
+        if(event.getSide().isClient())
+        {
+            JASSBlocks.RenderBlocks();
+            JASSItems.RenderItem();
+        }
 
     }
 

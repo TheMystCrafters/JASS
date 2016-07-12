@@ -13,7 +13,7 @@ public class JASSBlockBase extends Block
     public JASSBlockBase() {
         //Have to have this
         super(Material.ROCK);
-        setCreativeTab(JASS.tabsBRP);
+        setCreativeTab(JASS.tabsJASS);
         //Todo Set stuff for ever block
     }
 }

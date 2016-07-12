@@ -10,7 +10,7 @@ public class JASSItemBase extends Item
 {
     //Things That are need for ever item and :D
     public JASSItemBase() {
-        setCreativeTab(JASS.tabsBRP);
+        setCreativeTab(JASS.tabsJASS);
         //Todo Set stuff for ever item
     }
 }
