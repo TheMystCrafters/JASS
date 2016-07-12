@@ -1,14 +1,14 @@
 package myst.jass.items;
 
 /**
- * Created by UnRealDinnerbone on 7/12/2016.
+ * Created by manmaed on 12/07/2016.
  */
-public class ExampleItem extends JASSItemBase
-{
-    private static String name = "ExampleItem";
+public class JASSFluxingot extends JASSItemBase {
+
+    private static String name = "Fluxingot";
 
 
-    public ExampleItem()
+    public JASSFluxingot()
     {
         super();
         setUnlocalizedName(name);
