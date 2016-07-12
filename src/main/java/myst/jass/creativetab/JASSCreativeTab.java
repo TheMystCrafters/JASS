@@ -11,9 +11,9 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 /**
  * Created by manmaed on 12/07/2016.
  */
-public class JAZZCreativeTab extends CreativeTabs {
+public class JASSCreativeTab extends CreativeTabs {
 
-    public JAZZCreativeTab(int id) {
+    public JASSCreativeTab(int id) {
         super(Reference.MOD_ID);
     }
 

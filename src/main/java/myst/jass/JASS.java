@@ -1,5 +1,7 @@
-import myst.jass.blocks.JAZZBlocks;
-import myst.jass.creativetab.JAZZCreativeTab;
+package myst.jass;
+
+import myst.jass.blocks.JASSBlocks;
+import myst.jass.creativetab.JASSCreativeTab;
 import myst.jass.items.JASSItems;
 import myst.jass.libs.LogHelper;
 import myst.jass.libs.Reference;
@@ -16,24 +18,31 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 
-public class JAZZ {
+public class JASS {
     @Mod.Instance(Reference.MOD_ID)
-    public static JAZZ instance;
+    public static JASS instance;
     public static CommonProxy proxy;
-    public static CreativeTabs tabsBRP = new JAZZCreativeTab(CreativeTabs.getNextID());
+    public static CreativeTabs tabsBRP = new JASSCreativeTab(CreativeTabs.getNextID());
 
 
     //Forge Stuff
     @Mod.EventHandler
-    public void preInit(FMLPreInitializationEvent event) {
-
+    public void preInit(FMLPreInitializationEvent event)
+    {
+            JASSBlocks.RegisterBlock();
+            JASSItems.RegisterItem();
+            if(event.getSide().isClient())
+            {
+                JASSBlocks.RenderBlocks();
+                JASSItems.RenderItem();
+            }
     }
 
     @Mod.EventHandler
     public void load(FMLInitializationEvent event)
     {
-        JAZZBlocks.load();
-        JASSItems.load();
+        JASSBlocks.RegisterBlock();
+        JASSItems.RegisterItem();
 
     }
 

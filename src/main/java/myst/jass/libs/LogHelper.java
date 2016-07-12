@@ -1,5 +1,6 @@
 package myst.jass.libs;
 
+import myst.jass.blocks.ExampleBlock;
 import net.minecraftforge.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
 
