@@ -1,8 +1,11 @@
 Manmaeds Custom License:
 
+JASS (Just Another Storge System) is under this License
 
 Section 1: Terms
 
+	A. This Mod or other similar terms mean JASS (Just Another Storge System).
+	B. The term Owner or Owners mean Manmaed and UnRealDinnerbone
 
 Section 2: License
 
@@ -12,6 +15,11 @@ Section 2: License
 Section 3: Distribution
 	
 	A. This Mod source code may only be on Github or other sites that are owned by Github
+	B. You may use less then 30% of this mod source code in your mod with out perms and credit, if the code is less then 50% but more
+	then 30% you must ask.
+	C. If you want to use more then 40% of our code you can't.
+	D. The Owners may use there code in another or from another of there mod with out perms/credits.
+	E. This Mod may be distributed on places listed below
 	
 Section 3B: Mod Packs
 	
