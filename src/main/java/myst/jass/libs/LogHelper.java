@@ -1,4 +1,4 @@
-package manmaed.stargatemod.libs;
+package myst.jass.libs;
 
 import net.minecraftforge.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
@@ -10,7 +10,7 @@ public class LogHelper
 {
     private static void log(Level logLevel, Object object)
     {
-            FMLLog.log(Reference.MOD_ID, logLevel, "["+ Reference.MOD_ID.toUpperCase() + "] [" + logLevel + "] " + String.valueOf(object));
+            FMLLog.log(Reference.MOD_ID, logLevel, "["+ Reference.MOD_ID.toUpperCase() + "]:[" + logLevel + "]:" + String.valueOf(object));
     }
 
     public static void all(Object object)

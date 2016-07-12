@@ -1,4 +1,5 @@
-package manmaed.stargatemod.libs;
+package myst.jass.libs;
+
 
 import net.minecraft.util.text.translation.I18n;
 

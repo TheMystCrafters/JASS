@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "modid": "jass",
+  "name": "Just Another Storge System",
+  "description": "Just Another Storge System",
+  "version": "0.0-dev",
+  "mcversion": "1.10.2",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Manmaed, UnReal"],
+  "credits": "DinnerBeef For item textrues",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
