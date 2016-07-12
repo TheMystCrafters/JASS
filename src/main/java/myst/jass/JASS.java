@@ -30,12 +30,6 @@ public class JASS {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-
-    }
-
-    @Mod.EventHandler
-    public void load(FMLInitializationEvent event)
-    {
         JASSBlocks.RegisterBlock();
         JASSItems.RegisterItem();
         if(event.getSide().isClient())
@@ -43,6 +37,11 @@ public class JASS {
             JASSBlocks.RenderBlocks();
             JASSItems.RenderItem();
         }
+    }
+
+    @Mod.EventHandler
+    public void load(FMLInitializationEvent event)
+    {
         JASSRecipes.addRecipes();
 
     }
