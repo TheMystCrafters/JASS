@@ -11,7 +11,7 @@ public class JASSItems {
 
     public static void RegisterItem()
     {
-        Example = new ExampleItem();
+        /*Example = new ExampleItem();*/
 
         //Registers Item, another string can be add to the end for and ore dic name
         RegisteryHelper.RegisterItem(Example, ExampleItem.getName());
@@ -20,6 +20,6 @@ public class JASSItems {
     public static void RenderItem()
     {
         //Renders The Item
-        RegisteryHelper.RenderItem(Example, ExampleItem.getName());
+        /*RegisteryHelper.RenderItem(Example, ExampleItem.getName());*/
     }
 }

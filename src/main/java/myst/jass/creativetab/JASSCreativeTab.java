@@ -14,16 +14,19 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class JASSCreativeTab extends CreativeTabs {
 
     public JASSCreativeTab(int id) {
+
         super(Reference.MOD_ID);
     }
 
     @SideOnly(Side.CLIENT)
     @Override
     public Item getTabIconItem() {
+
         return Item.getItemFromBlock(Blocks.TRAPPED_CHEST);
     }
 
     public String getTranslatedTabLabel() {
+
         return I18n.translateToLocal("creativeJAZZ.name");
     }
 }
