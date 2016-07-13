@@ -9,5 +9,4 @@ public class Reference {
     public static final String VERSION = "0.0-dev";
     public static final String CLIENT_PROXY = "myst.jass.proxy.ClientProxy";
     public static final String PROXY_COMMON = "myst.jass.proxy.CommonProxy";
-    public static final String RE_PREFIX = MOD_ID.toLowerCase() + ":";
 }

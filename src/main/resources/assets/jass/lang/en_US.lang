@@ -6,4 +6,4 @@ item.Fluxingot.name=Flux Ingot
 item.Fluxdust.name=Flux Dust
 
 ##         Blocks           ##
-tile.jass:FluxBlock.name=Flux Block
+tile.FluxBlock.name=Flux Block

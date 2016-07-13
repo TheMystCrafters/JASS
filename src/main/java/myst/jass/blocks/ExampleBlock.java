@@ -1,6 +1,5 @@
 package myst.jass.blocks;
 
-import myst.jass.libs.Reference;
 import net.minecraft.block.material.Material;
 
 /**
@@ -14,7 +13,7 @@ public class ExampleBlock extends JASSBlockBase {
     public ExampleBlock()
     {
         super(Material.ROCK);
-        this.setUnlocalizedName(Reference.RE_PREFIX + name);
+        setUnlocalizedName(name);
 
     }
 

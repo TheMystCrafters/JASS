@@ -2,7 +2,6 @@ package myst.jass.recipes;
 
 import myst.jass.blocks.JASSBlocks;
 import myst.jass.items.JASSItems;
-import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -35,14 +34,16 @@ public class JASSRecipes {
                 'F', JASSItems.fluxingot);
 
         //Bedrock Glowstone
-        GameRegistry.addRecipe(new ItemStack(JASSItems.fluxingot, 9),
+        /*GameRegistry.addRecipe(new ItemStack(JASSItems.fluxingot, 9),
                 "   ",
                 " F ",
                 "   ",
-                'F', JASSBlocks.fluxblock);
+                'F', JASSBlocks.fluxblock);*/
+        GameRegistry.addShapelessRecipe(new ItemStack(JASSItems.fluxingot, 9), JASSBlocks.fluxblock);
 
-        GameRegistry.addSmelting(JASSBlocks.fluxblock, new ItemStack(JASSItems.fluxingot), 0.5f);
+
+        //Smeliting
+        /*GameRegistry.addSmelting(Input, Output, xp);*/
+        GameRegistry.addSmelting(JASSItems.fluxdust, new ItemStack(JASSItems.fluxingot ,2), 1.0f);
     }
-
-    //TODO Smelting
 }

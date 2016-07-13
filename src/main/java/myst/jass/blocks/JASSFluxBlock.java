@@ -1,7 +1,6 @@
 package myst.jass.blocks;
 
 import myst.jass.JASS;
-import myst.jass.libs.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
@@ -16,7 +15,7 @@ public class JASSFluxBlock extends Block {
     {
         super(Material.IRON);
         setCreativeTab(JASS.tabsJASS);
-        setUnlocalizedName(Reference.RE_PREFIX + name);
+        setUnlocalizedName(name);
 
     }
 
