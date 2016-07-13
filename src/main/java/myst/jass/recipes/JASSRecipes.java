@@ -2,6 +2,7 @@ package myst.jass.recipes;
 
 import myst.jass.blocks.JASSBlocks;
 import myst.jass.items.JASSItems;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -40,6 +41,7 @@ public class JASSRecipes {
                 "   ",
                 'F', JASSBlocks.fluxblock);
 
+        GameRegistry.addSmelting(JASSBlocks.fluxblock, new ItemStack(JASSItems.fluxingot), 0.5f);
     }
 
     //TODO Smelting

@@ -1,6 +1,7 @@
 package myst.jass.blocks;
 
 import myst.jass.JASS;
+import myst.jass.libs.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
@@ -11,16 +12,14 @@ public class JASSFluxBlock extends Block {
 
     private static String name = "FluxBlock";
 
-
     public JASSFluxBlock()
     {
         super(Material.IRON);
         setCreativeTab(JASS.tabsJASS);
-        setUnlocalizedName(name);
+        setUnlocalizedName(Reference.RE_PREFIX + name);
 
     }
 
-    //Lets you get the blocks name form outher classes :D with OUT THE SUBSTRING
     public static String getName()
     {
         return name;

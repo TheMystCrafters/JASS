@@ -1,5 +1,6 @@
 package myst.jass.creativetab;
 
+import myst.jass.libs.LangHelper;
 import myst.jass.libs.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
@@ -27,6 +28,6 @@ public class JASSCreativeTab extends CreativeTabs {
 
     public String getTranslatedTabLabel() {
 
-        return I18n.translateToLocal("creativeJAZZ.name");
+        return LangHelper.TAB.translateMessage(("creativeJASS.name"));
     }
 }

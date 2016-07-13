@@ -10,7 +10,7 @@ import net.minecraft.block.material.Material;
 public class JASSBlockBase extends Block
 {
     //Things That are need for basic blocks
-    public JASSBlockBase() {
+    public JASSBlockBase(Material material) {
         //Have to have this
         super(Material.ROCK);
         setCreativeTab(JASS.tabsJASS);

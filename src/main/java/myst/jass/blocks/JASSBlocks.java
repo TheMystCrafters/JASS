@@ -14,17 +14,17 @@ public class JASSBlocks {
     public static void RegisterBlock()
     {
         //Im Doing This part your way to be nice :D
-        /*Example = new ExampleBlock();*/
+        //Example = new ExampleBlock();
         fluxblock = new JASSFluxBlock();
 
         //Another String can be add for the oredic
-        /*RegisteryHelper.RegisterBlock(Example, ExampleBlock.getName());*/
+        //RegisteryHelper.RegisterBlock(Example, ExampleBlock.getName());
         RegisteryHelper.RegisterBlock(fluxblock, JASSFluxBlock.getName());
     }
 
     public static void RenderBlocks()
     {
-        /*RegisteryHelper.RenderBlock(Example, ExampleBlock.getName());*/
+        //RegisteryHelper.RenderBlock(Example, ExampleBlock.getName());
         RegisteryHelper.RenderBlock(fluxblock, JASSFluxBlock.getName());
     }
 }

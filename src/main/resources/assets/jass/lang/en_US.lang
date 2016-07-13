@@ -1,1 +1,9 @@
-creativeJAZZ.name=JASS
+##      CreativeTabs        ##
+tab.creativeJASS.name=JASS
+
+##         Items            ##
+item.Fluxingot.name=Flux Ingot
+item.Fluxdust.name=Flux Dust
+
+##         Blocks           ##
+tile.jass:FluxBlock.name=Flux Block

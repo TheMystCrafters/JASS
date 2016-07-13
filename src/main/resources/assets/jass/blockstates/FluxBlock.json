@@ -2,7 +2,7 @@
     "forge_marker": 1,
     "defaults": {
         "textures": {
-            "all": "JASS:blocks/ExampleBlock"
+            "all": "JASS:blocks/FluxBlock"
         },
         "model": "cube_all"
     },
