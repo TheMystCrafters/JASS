@@ -1,7 +1,7 @@
 package myst.jass.items;
 
 import myst.jass.items.drives.*;
-import myst.jass.items.drives.internals.JASSCreativeMod;
+import myst.jass.items.drives.internals.*;
 import myst.jass.libs.RegisteryHelper;
 
 /**
@@ -49,13 +49,13 @@ public class JASSDrives {
         sixtyfourdrive = new JASSSixtyFourDrive();
         hundredtwentyeightdrive = new JASSHundredTwentyEightDrive();
         twofiftysixdrive = new JASSTwoFiftySixDrive();
-        fivetwelvedrive = new JASSFiveTwelvaDrive();
+        fivetwelvedrive = new JASSFiveTwelveDrive();
         tentwentyfourdrive = new JASSTenTwentyFourDrive();
         creativedrive = new JASSCreativeDrive();
 
         //Crafting
 
-        /*onemod = new JASSOneMod();
+        onemod = new JASSOneMod();
         fourmod = new JASSFourMod();
         eightmod = new JASSEightMod();
         sixteenmod = new JASSSixteenMod();
@@ -63,8 +63,8 @@ public class JASSDrives {
         sixtyfourmod = new JASSSixtyFourMod();
         hundredtwentyeightmod = new JASSHundredTwentyEightMod();
         twofiftysixmod = new JASSTwoFiftySixMod();
-        fivetwelvemod = new JASSFiveTwelvaMod();
-        tentwentyfourmod = new JASSTenTwentyFourMod();*/
+        fivetwelvemod = new JASSFiveTwelveMod();
+        tentwentyfourmod = new JASSTenTwentyFourMod();
         creativemod = new JASSCreativeMod();
 
 
@@ -81,13 +81,13 @@ public class JASSDrives {
         RegisteryHelper.RegisterItem(sixtyfourdrive, JASSSixtyFourDrive.getName());
         RegisteryHelper.RegisterItem(hundredtwentyeightdrive, JASSHundredTwentyEightDrive.getName());
         RegisteryHelper.RegisterItem(twofiftysixdrive, JASSTwoFiftySixDrive.getName());
-        RegisteryHelper.RegisterItem(fivetwelvedrive, JASSFiveTwelvaDrive.getName());
+        RegisteryHelper.RegisterItem(fivetwelvedrive, JASSFiveTwelveDrive.getName());
         RegisteryHelper.RegisterItem(tentwentyfourdrive, JASSTenTwentyFourDrive.getName());
         RegisteryHelper.RegisterItem(creativedrive, JASSCreativeDrive.getName());
 
         //Crafting Bit
 
-        /*RegisteryHelper.RegisterItem(onemod, JASSOneMod.getName());
+        RegisteryHelper.RegisterItem(onemod, JASSOneMod.getName());
         RegisteryHelper.RegisterItem(fourmod, JASSFourMod.getName());
         RegisteryHelper.RegisterItem(eightmod, JASSEightMod.getName());
         RegisteryHelper.RegisterItem(sixteenmod, JASSSixteenMod.getName());
@@ -95,8 +95,8 @@ public class JASSDrives {
         RegisteryHelper.RegisterItem(sixtyfourmod, JASSSixtyFourMod.getName());
         RegisteryHelper.RegisterItem(hundredtwentyeightmod, JASSHundredTwentyEightMod.getName());
         RegisteryHelper.RegisterItem(twofiftysixmod, JASSTwoFiftySixMod.getName());
-        RegisteryHelper.RegisterItem(fivetwelvemod, JASSFiveTwelvaMod.getName());
-        RegisteryHelper.RegisterItem(tentwentyfourmod, JASSTenTwentyFourMod.getName());*/
+        RegisteryHelper.RegisterItem(fivetwelvemod, JASSFiveTwelveMod.getName());
+        RegisteryHelper.RegisterItem(tentwentyfourmod, JASSTenTwentyFourMod.getName());
         RegisteryHelper.RegisterItem(creativemod, JASSCreativeMod.getName());
 
     }
@@ -114,12 +114,12 @@ public class JASSDrives {
         RegisteryHelper.RenderItem(sixtyfourdrive, JASSSixtyFourDrive.getName());
         RegisteryHelper.RenderItem(hundredtwentyeightdrive, JASSHundredTwentyEightDrive.getName());
         RegisteryHelper.RenderItem(twofiftysixdrive, JASSTwoFiftySixDrive.getName());
-        RegisteryHelper.RenderItem(fivetwelvedrive, JASSFiveTwelvaDrive.getName());
+        RegisteryHelper.RenderItem(fivetwelvedrive, JASSFiveTwelveDrive.getName());
         RegisteryHelper.RenderItem(tentwentyfourdrive, JASSTenTwentyFourDrive.getName());
         RegisteryHelper.RenderItem(creativedrive, JASSCreativeDrive.getName());
 
         //Crafting Bits
-        /*RegisteryHelper.RenderItem(onemod, JASSOneMod.getName());
+        RegisteryHelper.RenderItem(onemod, JASSOneMod.getName());
         RegisteryHelper.RenderItem(fourmod, JASSFourMod.getName());
         RegisteryHelper.RenderItem(eightmod, JASSEightMod.getName());
         RegisteryHelper.RenderItem(sixteenmod, JASSSixteenMod.getName());
@@ -127,9 +127,9 @@ public class JASSDrives {
         RegisteryHelper.RenderItem(sixtyfourmod, JASSSixtyFourMod.getName());
         RegisteryHelper.RenderItem(hundredtwentyeightmod, JASSHundredTwentyEightMod.getName());
         RegisteryHelper.RenderItem(twofiftysixmod, JASSTwoFiftySixMod.getName());
-        RegisteryHelper.RenderItem(fivetwelvemod, JASSFiveTwelvaMod.getName());
-        RegisteryHelper.RenderItem(tentwentyfourmod, JASSTenTwentyFourMod.getName());*/
-        RegisteryHelper.RenderItem(creativemod, JASSCreativeMod.getName());;
+        RegisteryHelper.RenderItem(fivetwelvemod, JASSFiveTwelveMod.getName());
+        RegisteryHelper.RenderItem(tentwentyfourmod, JASSTenTwentyFourMod.getName());
+        RegisteryHelper.RenderItem(creativemod, JASSCreativeMod.getName());
 
     }
 }

@@ -57,12 +57,6 @@ public class JASSRecipes {
                 "RRR",
                 'F', JASSItems.fluxingot, 'G', Blocks.GLASS, 'R', Items.REDSTONE);
 
-        GameRegistry.addRecipe(new ItemStack(JASSDrives.creativedrive, 1),
-                "FGF",
-                "GCG",
-                "RRR",
-                'F', JASSItems.fluxingot, 'G', Blocks.GLASS, 'R', Items.REDSTONE, 'C', JASSDrives.creativemod);
-        GameRegistry.addShapelessRecipe(new ItemStack(JASSDrives.creativedrive, 1), JASSDrives.drivecae, JASSDrives.creativemod);
     }
 
 }

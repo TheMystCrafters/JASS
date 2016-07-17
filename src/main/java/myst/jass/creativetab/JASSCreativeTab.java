@@ -1,11 +1,10 @@
 package myst.jass.creativetab;
 
+import myst.jass.items.JASSDrives;
 import myst.jass.libs.LangHelper;
 import myst.jass.libs.Reference;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
-import net.minecraft.util.text.translation.I18n;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -23,7 +22,7 @@ public class JASSCreativeTab extends CreativeTabs {
     @Override
     public Item getTabIconItem() {
 
-        return Item.getItemFromBlock(Blocks.TRAPPED_CHEST);
+        return JASSDrives.creativemod;
     }
 
     public String getTranslatedTabLabel() {

@@ -10,15 +10,25 @@ item.DriveCase.name=Drive Case
 item.CreativeDrive.name=Creative Drive
 item.CreativeMod.name=Creative Mod
 item.1kDrive.name=1k Drive
+item.1kMod.name=1k Mod
 item.4kDrive.name=4k Drive
+item.4kMod.name=4k Mod
 item.8kDrive.name=8k Drive
+item.8kMod.name=8k Mod
 item.16kDrive.name=16k Drive
+item.16kMod.name=16k Mod
 item.32kDrive.name=32k Drive
+item.32kMod.name=32k Mod
 item.64kDrive.name=64k Drive
+item.64kMod.name=64k Mod
 item.128kDrive.name=128k Drive
+item.128kMod.name=128k Mod
 item.256kDrive.name=256k Drive
+item.256kMod.name=256k Mod
 item.512kDrive.name=512k Drive
+item.512kMod.name=512k Mod
 item.1024kDrive.name=1024k Drive
+item.1024kMod.name=1024k Mod
 
 ##         Blocks           ##
 tile.FluxBlock.name=Flux Block

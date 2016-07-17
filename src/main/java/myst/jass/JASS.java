@@ -7,6 +7,7 @@ import myst.jass.items.JASSItems;
 import myst.jass.libs.LogHelper;
 import myst.jass.libs.Reference;
 import myst.jass.proxy.CommonProxy;
+import myst.jass.recipes.JASSDriveRecipes;
 import myst.jass.recipes.JASSRecipes;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
@@ -46,6 +47,7 @@ public class JASS {
     public void load(FMLInitializationEvent event)
     {
         JASSRecipes.addRecipes();
+        JASSDriveRecipes.addDriveRecipes();
 
     }
 

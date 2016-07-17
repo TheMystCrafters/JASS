@@ -5,9 +5,9 @@ import myst.jass.items.JASSItemBase;
 /**
  * Created by manmaed on 17/07/2016.
  */
-public class JASSFiveTwelvaDrive extends JASSItemBase {
+public class JASSFiveTwelveDrive extends JASSItemBase {
 
-    public JASSFiveTwelvaDrive() {
+    public JASSFiveTwelveDrive() {
         super();
         setUnlocalizedName(name);
     }
