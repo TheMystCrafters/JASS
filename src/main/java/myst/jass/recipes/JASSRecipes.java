@@ -1,7 +1,10 @@
 package myst.jass.recipes;
 
 import myst.jass.blocks.JASSBlocks;
+import myst.jass.items.JASSDrives;
 import myst.jass.items.JASSItems;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -45,5 +48,21 @@ public class JASSRecipes {
         //Smeliting
         /*GameRegistry.addSmelting(Input, Output, xp);*/
         GameRegistry.addSmelting(JASSItems.fluxdust, new ItemStack(JASSItems.fluxingot ,2), 1.0f);
+
+        //For Drives
+        //DriveCase
+        GameRegistry.addRecipe(new ItemStack(JASSDrives.drivecae, 1),
+                "FGF",
+                "G G",
+                "RRR",
+                'F', JASSItems.fluxingot, 'G', Blocks.GLASS, 'R', Items.REDSTONE);
+
+        GameRegistry.addRecipe(new ItemStack(JASSDrives.creativedrive, 1),
+                "FGF",
+                "GCG",
+                "RRR",
+                'F', JASSItems.fluxingot, 'G', Blocks.GLASS, 'R', Items.REDSTONE, 'C', JASSDrives.creativemod);
+        GameRegistry.addShapelessRecipe(new ItemStack(JASSDrives.creativedrive, 1), JASSDrives.drivecae, JASSDrives.creativemod);
     }
+
 }

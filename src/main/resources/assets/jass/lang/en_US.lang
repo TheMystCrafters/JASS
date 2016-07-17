@@ -1,9 +1,25 @@
 ##      CreativeTabs        ##
-tab.creativeJASS.name=JASS
+tab.creativeJASS.name=JASS (Just Another Storage System)
 
 ##         Items            ##
 item.Fluxingot.name=Flux Ingot
 item.Fluxdust.name=Flux Dust
 
+##         Drives           ##
+item.DriveCase.name=Drive Case
+item.CreativeDrive.name=Creative Drive
+item.CreativeMod.name=Creative Mod
+item.1kDrive.name=1k Drive
+item.4kDrive.name=4k Drive
+item.8kDrive.name=8k Drive
+item.16kDrive.name=16k Drive
+item.32kDrive.name=32k Drive
+item.64kDrive.name=64k Drive
+item.128kDrive.name=128k Drive
+item.256kDrive.name=256k Drive
+item.512kDrive.name=512k Drive
+item.1024kDrive.name=1024k Drive
+
 ##         Blocks           ##
 tile.FluxBlock.name=Flux Block
+tile.FluxOre.name=Flux Ore

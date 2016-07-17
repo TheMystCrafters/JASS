@@ -13,4 +13,6 @@ public class JASSItemBase extends Item
         setCreativeTab(JASS.tabsJASS);
         //Todo Set stuff for ever item
     }
+
+
 }

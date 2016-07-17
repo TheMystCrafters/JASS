@@ -2,6 +2,7 @@ package myst.jass;
 
 import myst.jass.blocks.JASSBlocks;
 import myst.jass.creativetab.JASSCreativeTab;
+import myst.jass.items.JASSDrives;
 import myst.jass.items.JASSItems;
 import myst.jass.libs.LogHelper;
 import myst.jass.libs.Reference;
@@ -32,9 +33,11 @@ public class JASS {
     {
         JASSBlocks.RegisterBlock();
         JASSItems.RegisterItem();
+        JASSDrives.RegisterItem();
         if(event.getSide().isClient())
         {
             JASSBlocks.RenderBlocks();
+            JASSDrives.RenderItem();
             JASSItems.RenderItem();
         }
     }
