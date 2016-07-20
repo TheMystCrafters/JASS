@@ -2,8 +2,7 @@ package myst.jass.blocks;
 
 import myst.jass.JASS;
 import myst.jass.items.JASSItems;
-import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
+import net.minecraft.block.BlockOre;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
 
@@ -12,16 +11,20 @@ import java.util.Random;
 /**
  * Created by manmaed on 17/07/2016.
  */
-public class JASSFluxOre extends Block {
+public class JASSFluxOre extends BlockOre {
 
     private static String name = "FluxOre";
 
     public JASSFluxOre() {
-        super(Material.ROCK);
+        super();
         setCreativeTab(JASS.tabsJASS);
         setUnlocalizedName(name);
+        setHarvestLevel("pickaxe", 2);
+        setHardness(2.0F);
+        setResistance(5.0F);
     }
-public static String getName()
+
+    public static String getName()
     {
         return name;
     }

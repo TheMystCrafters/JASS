@@ -33,3 +33,6 @@ item.1024kMod.name=1024k Mod
 ##         Blocks           ##
 tile.FluxBlock.name=Flux Block
 tile.FluxOre.name=Flux Ore
+
+##      System Blocks       ##
+tile.

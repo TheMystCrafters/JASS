@@ -27,6 +27,9 @@ public class JASS {
     public static CommonProxy proxy;
     public static CreativeTabs tabsJASS = new JASSCreativeTab(CreativeTabs.getNextID());
 
+    //TODO: RedStone Flux API! https://github.com/CoFH/RedstoneFlux-API/blob/1.8/ <Power
+    //TODO: Tesla http://minecraft.curseforge.com/projects/tesla <Power
+
 
     //Forge Stuff
     @Mod.EventHandler
