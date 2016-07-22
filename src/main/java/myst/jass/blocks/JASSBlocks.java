@@ -1,5 +1,6 @@
 package myst.jass.blocks;
 
+import myst.jass.blocks.system.JASSDrivebay;
 import myst.jass.blocks.system.JASSExportbus;
 import myst.jass.blocks.system.JASSImportbus;
 import myst.jass.blocks.system.JASSTheCore;
@@ -17,7 +18,8 @@ public class JASSBlocks {
     public static BlockOre fluxore;
     public static JASSBlockBase importbus;
     public static JASSBlockBase exportbus;
-    public static JASSBlockBase thecore;
+    public static Block thecore;
+    public static Block drivebay;
 
 
 
@@ -30,6 +32,7 @@ public class JASSBlocks {
         thecore = new JASSTheCore();
         importbus = new JASSImportbus();
         exportbus = new JASSExportbus();
+        drivebay = new JASSDrivebay();
 
         //Another String can be add for the oredic
         //RegisteryHelper.RegisterBlock(Example, ExampleBlock.getName());
@@ -38,6 +41,7 @@ public class JASSBlocks {
         RegisteryHelper.RegisterBlock(thecore, JASSTheCore.getName());
         RegisteryHelper.RegisterBlock(importbus, JASSImportbus.getName());
         RegisteryHelper.RegisterBlock(exportbus, JASSExportbus.getName());
+        RegisteryHelper.RegisterBlock(drivebay, JASSDrivebay.getName());
     }
 
     public static void RenderBlocks()
@@ -48,5 +52,6 @@ public class JASSBlocks {
         RegisteryHelper.RenderBlock(thecore, JASSTheCore.getName());
         RegisteryHelper.RenderBlock(importbus, JASSImportbus.getName());
         RegisteryHelper.RenderBlock(exportbus, JASSExportbus.getName());
+        RegisteryHelper.RenderBlock(drivebay, JASSDrivebay.getName());
     }
 }

@@ -12,7 +12,7 @@ public class JASSImportbus extends JASSBlockBase {
 
     public JASSImportbus() {
 
-        super(Material.ROCK);
+        super();
         setUnlocalizedName(name);
     }
 
